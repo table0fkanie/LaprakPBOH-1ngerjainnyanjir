@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Toko Sederhana</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>TOKO SERBAGUNA</h1>
+        <p>Belanja mudah dan praktis</p>
+    </header>
+
+    <main>
+
+        <!-- DAFTAR PRODUK -->
+        <section class="container">
+            <h2>Daftar Produk</h2>
+            <div id="daftarProduk" class="produk-container">
+                <!-- Produk ditampilkan melalui JavaScript -->
+            </div>
+        </section>
+
+        <!-- KERANJANG -->
+        <section class="container keranjang">
+            <h2>Keranjang Belanja</h2>
+
+            <ul id="daftarKeranjang">
+                <!-- Item keranjang ditampilkan melalui JavaScript -->
+            </ul>
+
+            <div id="ringkasanKeranjang">
+                Jumlah Item: 0 <br>
+                Total Harga: Rp0
+            </div>
+
+            <div class="tombol-keranjang">
+                <button id="batalkanTerakhir">
+                    Batalkan Item Terakhir
+                </button>
+
+                <button id="kosongkanKeranjang">
+                    Kosongkan Keranjang
+                </button>
+
+                <button id="checkout">
+                    Checkout
+                </button>
+            </div>
+        </section>
+
+        <!-- RINGKASAN PESANAN -->
+        <section class="container">
+            <h2>Ringkasan Pesanan</h2>
+            <div id="ringkasanPesanan">
+                Belum ada pesanan.
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Toko Serbaguna</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
